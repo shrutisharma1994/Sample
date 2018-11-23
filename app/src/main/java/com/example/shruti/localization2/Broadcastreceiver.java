@@ -13,6 +13,6 @@ public class Broadcastreceiver extends BroadcastReceiver{
     @Override
     public void onReceive(Context context, Intent intent) {
         String locale= Locale.getDefault().getCountry();
-        Toast.makeText(context,"change the language"+locale,Toast.LENGTH_SHORT).show();
+        Toast.makeText(context,"change"+locale,Toast.LENGTH_SHORT).show();
     }
 }
